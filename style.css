@@ -1,0 +1,422 @@
+body{
+width: 100%;
+min-height: 280vh;
+max-width: 100vw;
+margin: 0;
+padding: 0;
+
+
+background-repeat: no-repeat;
+}
+
+body{
+    
+font-size: 20px;
+    font-family: Arial;
+        
+}
+
+.topo nav{
+    overflow: hidden;
+    background-color: #1a2537;
+}
+
+.topo nav a {
+   
+    float: left;
+    color: #e2dbaf;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 19px;
+    
+
+
+
+
+
+}
+
+.topo nav a:hover{
+    
+    background-color: #e2dbaf;
+    color:#1a2537;
+  
+    
+    
+}
+
+.topo nav a {
+    
+    top:100px;
+}
+body{
+    text-align: left;
+    color: #1a2537;
+    
+}
+.titulo1{
+
+    position: absolute;
+    top:200px;
+    left: 100px;
+   }
+
+   .titulo2{ 
+
+    position: absolute;
+    top: 1320px;
+    left: 100px;
+ 
+   }
+
+   
+    
+
+
+body{
+    font-size: 15px;
+   
+}
+.text1{
+ position: absolute;
+ top: 370px;
+ left: 100px;
+    line-height: 25px;
+    font-size: 20px ;
+    
+}
+
+
+.fundoweb{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+}
+
+.fundoweb .fotobase1, .fundoweb .fotobase2{
+    display: block;
+    width: 100%; 
+    
+
+}
+ 
+
+
+.text1{
+    position: absolute;
+    top: 370px;
+    left: 100px;
+       line-height: 25px;
+       font-size: 20px ;
+       
+   }
+
+
+
+
+.text3{
+    position: absolute;
+    top: 1000px;
+    left: 200px;
+    line-height: 25px;
+    font-size: 20px ;
+    font-family: Arial;
+}
+
+.container .botaozap{
+    position: absolute;
+    top: 300px;
+    right: 215px;
+    width:  260px;
+    height:auto;
+}
+.container .botaoinst{
+    position: absolute;
+    top: 420px;
+    right: 215px;
+    width:  260px;
+    height:auto;
+}
+
+
+
+.container .logomoveis {
+    position: absolute;
+    top: 8px;
+    right: 20px;
+    width:  230px;
+    height:auto; 
+}
+
+
+
+.container .fundomobile{
+      
+    display: none;
+    
+ }
+ 
+ .fundomobile{
+    display: none;
+ }
+
+ .fundomobile2{
+    display: none;
+ }
+
+ .mobile{
+    display: none;
+ }
+
+ .fotomenu{
+    display: none;
+ }
+
+ .container .logomoveis2{
+    display: none;
+ }
+ 
+ .botaomenucss{
+    display: none;
+ }
+ 
+@media(max-width: 600px){
+
+ 
+    
+
+    body{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+       
+        
+    
+       
+        
+
+    }
+
+    .botaomenucss{
+        display: block;
+        position: absolute;
+        top: 8px;
+        left: 17px;
+        background: transparent;
+        
+        width:65px;
+        height: 65px;
+        border: 4px ;
+        border-radius:20px ;
+        cursor: pointer;
+        
+        
+    }
+    .linha{
+        width: 50px;
+        height: 6px;
+        margin: 8px auto;
+        background-color: #e2dbaf;
+        display: block;
+        transform-origin: center;
+    }
+    
+    button.ativo .linha:nth-child(1){
+       background-color: #c0ae3c;
+    }
+    button.ativo .linha:nth-child(3){
+        background-color: #c0ae3c;
+    }
+    button.ativo .linha:nth-child(2){
+        background-color: #c0ae3c;
+    }
+
+    .fotomenu{
+        display: block;
+       position: absolute;
+       top: 0px;
+        width: 100%;
+        height:80px; 
+        
+    }
+
+   
+    
+
+ .topo{
+    float: left;
+    color: #e2dbaf;
+    text-align: center;
+    padding: 0px 0px;
+    text-decoration: none;
+    font-size: 19px;
+    display: none;
+    }
+
+
+
+    .mobile nav a:hover{
+        display: block;
+        background-color: #1a2537;
+        color:#e2dbaf;
+        
+    }
+
+.mobile{
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    height:auto;      
+    visibility: hidden;   
+    display: block;
+
+   
+}
+
+
+.mobile.abrir{
+     visibility: visible;
+     
+
+}
+
+.mobile nav a {
+    
+    background-color: rgba(242, 230, 149, 0.53);
+    color: #1a2537;
+    text-decoration: none;
+    backdrop-filter: blur(7px);
+    display: block;
+    padding: 20px 20px;
+    font-size: 25pt;
+    overflow: hidden;
+    width: 100%;
+   
+    box-sizing: border-box;
+    
+    
+    
+    
+    
+}
+
+
+
+.fundoweb{
+    display: none;
+}
+
+.container .botaozap{
+    position: absolute;
+    top: 670px;
+    left: 50%;
+    transform: translateX(-50%);
+    width:  260px;
+    height:auto;
+    
+}
+.container .botaoinst{
+    position: absolute;
+    top: 580px;
+   left: 50%;
+   transform: translateX(-50%);
+    width:  260px;
+    
+    
+}
+
+.container .logomoveis {
+   display: none; 
+    
+}
+
+
+
+
+.text1{
+    position: absolute;
+    top: 320px;
+    left: 20px;
+       line-height: 25px;
+       font-size: 20px ;
+       
+   }
+
+
+
+
+.text3{
+    position: absolute;
+    top: 1000px;
+    left: 200px;
+    line-height: 25px;
+    font-size: 20px ;
+    font-family: Arial;
+    
+}
+
+
+.titulo1{
+    position: absolute; 
+        top: 100px;
+        left: 20px;
+       
+
+        
+        
+       }
+    
+       .titulo2{ 
+    
+        position: absolute;
+        top: 1320px;
+        left: 100px;
+        
+     
+       }
+
+       .container .logomoveis2{
+
+    
+    
+        position: absolute;
+        top: 22px;
+        right: 15px;
+        width: 250px;
+        height: auto ;
+        display: block;
+        
+       
+        
+    }
+
+  
+.fundosmobile{
+    display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 80px;
+}
+    
+
+  
+.fundosmobile .fundomobile, .fundosmobile .fundomobile2{
+  
+   display: block;
+   width: 100%;
+   
+   
+  
+}
+
+
+
+
+}
